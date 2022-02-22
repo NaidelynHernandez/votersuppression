@@ -1,0 +1,248 @@
+
+.title{
+display: flex;
+height: 100vh;
+width: 100%;
+justify-content: center;
+align-items: center;
+background-image: url('https://s.abcnews.com/images/Politics/2020HOWTOVOTE_080520_V01_BV_1596666870539_hpMain_16x9_1600.jpg');
+background-size: cover;
+
+object-fit: cover;
+background-position: center;
+}
+
+h1{
+  font: 24pt calibri;
+
+  text-transform: uppercase;
+  color: rgb(102, 155, 188);
+  font-size: 80px;
+  background-color: white;
+}
+
+
+h1.involvedtitle{
+
+  margin-top: 70px;
+  font: 24pt calibri;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+.options {
+
+
+
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  padding; 0px 0%;
+
+
+}
+
+li a:hover {
+  background-color: rgb(236, 228, 219);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  /*display: inline-block; */
+  color: white;
+  text-align: center;
+  padding: 0px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font: 12pt calibri;
+  text-transform: uppercase;
+  color: rgb(102, 155, 188);
+}
+
+ul {
+
+
+
+  list-style-type: none;
+  margin: 0;
+  padding: 9px 25px;
+  overflow: hidden;
+  position: fixed;
+  font-size: 25px;
+  background-color: white;
+  top:0;
+  width:100%;
+}
+
+.imgcontainer img {
+
+  object-fit: cover;
+  height: 200px;
+  width: 180px;
+}
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+
+  color: rgb(193, 18, 31);
+  font: 20pt calibri;
+  padding-top: 10px;
+
+}
+
+div.imgcontainer {
+border: 6px solid #ccc;
+border: 1px solid #ccc;
+text-align: center;
+ width: 180px;
+
+}
+
+div.subtitle{
+  padding: 15px;
+
+}
+
+.history{
+
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  color: rgb(193, 18, 31);
+  font: 20pt calibri;
+  display: flex;
+  justify-content: center;
+
+}
+
+hr{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 70%;
+}
+
+
+
+
+
+
+.info{
+
+    padding: 15px;
+}
+
+
+div.onecontainer{
+    margin-top: 20px;
+  display: flex;
+
+   border: 3px solid rgb(102, 155, 188);
+
+   width: 400px;
+   height: 200px
+}
+
+div.twocontainer {
+  margin-top: 20px;
+  display: flex;
+
+  border: 3px solid rgb(102, 155, 188);
+    text-align: center;
+     width: 400px;
+     height: 200px;
+}
+
+div.effectscontainer{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+
+.secondpgcontainer{
+  margin-top: 20px;
+  display: flex;
+
+
+    text-align: center;
+     width: 400px;
+     height: 200px;
+
+}
+
+div.involvedcontainer{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+   width: 400px;
+   height: 200px;
+
+
+}
+
+
+.organizations{
+ border: 3px solid rgb(102, 155, 188);
+ padding: 40px;
+ margin-left: 240px;
+width: 100px;
+height: 400px;
+display: flex;
+justify-content: center;
+flex-flow: row wrap;
+
+}
+
+
+.organizations1{
+ border: 3px solid rgb(102, 155, 188);
+ padding: 40px;
+ margin-left: 240px;
+width: 100px;
+height: 400px;
+display: flex;
+justify-content: center;
+flex-flow: row wrap;
+
+}
+
+
+.organizations2 {
+  border: 3px solid rgb(102, 155, 188);
+  padding: 40px;
+  margin-left: 240px;
+ width: 100px;
+ height: 400px;
+ display: flex;
+ justify-content: center;
+ flex-flow: row wrap;
+
+}
+
+
+.column {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+   width: 100%;
+
+    flex: 100%;
+    max-width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
